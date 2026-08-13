@@ -1,9 +1,9 @@
 #!/bin/bash
-# AfterInstall hook — install backend Node.js dependencies
+# AfterInstall hook - install backend Node dependencies
 
 set -e
 
-APP_DIR="/home/ec2-user/demo-app"
+APP_DIR="/home/ubuntu/demo-app"
 
 echo "Running npm install in backend..."
 cd "$APP_DIR/backend"
